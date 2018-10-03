@@ -1,7 +1,7 @@
 body {
     background-image: url("Images/old_moon.png");
     background-attachment: fixed;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;  
+    font-family: cursive;  
 }
 .nav {
     background-color: #FFFFFF;
@@ -18,7 +18,7 @@ footer {
     width: 100%;
     background-color: gray;
     height: 50px;
-    border-top: solid 7px #00A4BC;
+    border-top: solid 7px #4CA746;
     line-height: 60px;
     
 }
@@ -30,11 +30,12 @@ footer {
     text-align: center;
 }
 button{
-    background-color: #00A4BC;
+    background-color: #4CA746;
+    margin-left: 1em;
 }
 .banner {
     opacity: .7;
-    background-color: #0cada7;
+    background-color: #4CA746;
     color: #FFFFFF;
     width: 279px;
     height: 50px;
@@ -44,7 +45,7 @@ button{
     line-height: 50px;
 }
 .img-thumbnail:hover ~ .banner { 
-    background-color: blue;
+    background-color: rgb(61, 230, 46);
     opacity: 1;
     transition: .5s;
     font-size: 19px;
