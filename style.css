@@ -33,6 +33,7 @@ button{
     background-color: #00A4BC;
 }
 .banner {
+    opacity: .7;
     background-color: #0cada7;
     color: #FFFFFF;
     width: 279px;
@@ -40,7 +41,12 @@ button{
     text-align: center;
     position: absolute;
     top: 8em;
-   line-height: 50px;
+    line-height: 50px;
+}
+.img-thumbnail:hover ~ .banner { 
+    background-color: red;
+    opacity: 1;
+    transition: .5s
 }
 .imageCard {
     position: relative;
