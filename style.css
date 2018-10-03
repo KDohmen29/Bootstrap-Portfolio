@@ -44,9 +44,10 @@ button{
     line-height: 50px;
 }
 .img-thumbnail:hover ~ .banner { 
-    background-color: red;
+    background-color: blue;
     opacity: 1;
-    transition: .5s
+    transition: .5s;
+    font-size: 19px;
 }
 .imageCard {
     position: relative;
