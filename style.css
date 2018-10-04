@@ -78,4 +78,7 @@ button{
     border-radius: 12px;
     width: 300px;
     height: 200px;
+    border: solid gray 1px;
+
 }
+
