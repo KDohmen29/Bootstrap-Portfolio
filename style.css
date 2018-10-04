@@ -1,19 +1,30 @@
 body {
-    background-image: url("Images/old_moon.png");
+    background-image: url("Images/old-wood-background.jpg");
     background-attachment: fixed;
     font-family: cursive;  
 }
 .nav {
-    background-color: #FFFFFF;
+    background-color: rgb(202, 202, 202);
     width: 100%;
     height: 68px;
     padding-top: 30px;
     border-bottom: solid 1px;
     position: absolute;
 }
+.myName {
+    background-color: rgb(240, 88, 0);
+}
 
 h1 {
     padding-left: 30px;
+    text-decoration: underline;
+}
+.secondHeader {
+    color: rgb(240, 88, 0);
+}
+.grey {
+ background-color: rgb(202, 202, 202);
+ border-radius: 12px;
 }
 
 
@@ -24,7 +35,7 @@ footer {
     width: 100%;
     background-color: gray;
     height: 50px;
-    border-top: solid 7px #4CA746;
+    border-top: solid 7px rgb(240, 88, 0);
     line-height: 60px;
     
 }
@@ -36,12 +47,12 @@ footer {
     text-align: center;
 }
 button{
-    background-color: #4CA746;
+    background-color: rgb(142, 207, 238);
     margin-left: 1em;
 }
 .banner {
     opacity: .7;
-    background-color: #4CA746;
+    background-color: rgb(142, 207, 238);
     color: #FFFFFF;
     width: 100%;
     height: 50px;
@@ -51,14 +62,16 @@ button{
     line-height: 50px;
 }
 .banner:hover {
-    background-color: rgb(61, 230, 46);
+    background-color: rgb(240, 88, 0);
+    color: rgb(142, 207, 238);
     opacity: 1;
     transition: .5s;
     font-size: 18px;
 
 }
 .img-thumbnail:hover ~ .banner { 
-    background-color: rgb(61, 230, 46);
+    background-color: rgb(240, 88, 0);
+    color: rgb(142, 207, 238);
     opacity: 1;
     transition: .5s;
     font-size: 18px;
@@ -81,4 +94,19 @@ button{
     border: solid gray 1px;
 
 }
+img {
+    animation-name: example;
+    animation-duration: 3s;
+}
+
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.myClass {
+    animation-name: example;
+    animation-duration: 2s;
+}
+
 
