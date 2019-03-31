@@ -7,17 +7,17 @@
     border-bottom: solid 1px;
     position: absolute;
 }
-.myName {
-    background-color: rgb(240, 88, 0);
-}
 
 h1 {
     padding-left: 30px;
 }
 
+.Header {
+    color: white;
+}
+
 .grey {
  background-color: rgb(202, 202, 202);
- border-radius: 12px;
 }
 
 
@@ -46,7 +46,7 @@ button{
 .banner {
     opacity: .7;
     background-color: rgb(142, 207, 238);
-    color: #3D4E5C;
+    color: darkgrey;
     width: 100%;
     height: 50px;
     text-align: center;
@@ -71,19 +71,15 @@ button{
 }
 .imageCard {
     position: relative;
-    width: 300px;
-    height: 200px;
+    width: 40%;
     display: inline-block;
     padding: 0px;
     margin: 10px;
     margin-bottom: 20px;
-    border-radius: 12px;
     
 }
 .imageCard img {
-    border-radius: 12px;
-    width: 300px;
-    height: 200px;
+    width: 50%;
     border: solid gray 1px;
 
 }
@@ -108,49 +104,44 @@ img {
 
 body {
     font-family: "Lato", sans-serif;
-    background-color: #818181
+    background-color: black;
 }
 
 .sidenav {
-    height: 100%;
-    width: 250px;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color:#3D4E5C;
-    overflow-x: hidden;
+    background-color: black;
+    margin: auto;
     padding-top: 20px;
     text-align: center;
+    width: 85%;
 }
 
 .myNameContainer{
     color: rgb(240, 234, 234);
-    border-radius: 7px;
     margin: 10px;
-    border: 2px;
+    float: left;
 }
 .container {
     margin-top: 100px;
-    margin-left: 22%;
-    width: 75%;
+    width: 85%;
 }
 
 h3 {
-    margin-top: 200px;
     font-weight: 800; 
-    text-align: right;   
+    text-align: left;   
 }
 h6 {
     font-weight: 10;
-    text-align: right;
+    text-align: left;
+    float: left;
 }
 
 nav {
     margin: 15px;
+    float: right;
 }
 .navigation {
     font-size: 15px;
+    color: white;
 }
 
 .sidenav a {
