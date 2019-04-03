@@ -38,7 +38,9 @@ button {
     text-align: center;
     opacity: 0;
     pointer-events: none;
-    margin-top:10%;
+    margin-top:15%;
+    height: 20px;
+    font-size: small;
 }
 
 
@@ -54,6 +56,15 @@ button {
     border: solid white 1px;
     margin: 2%;
 
+}
+
+.imageCard-showcase:hover {
+    width: 85%;
+    transition: 1.5s;
+}
+.imageCard-showcase:not(:hover) {
+    width: 81%;
+    transition: 1.5s;
 }
 
 .imageCard-showcase img {
